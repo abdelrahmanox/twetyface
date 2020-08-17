@@ -1,0 +1,111 @@
+body{    background-color: rgb(21, 32, 43); margin: 0;
+    grid-template-columns: 200px 645px 598px;
+    display: grid;
+    justify-content: center;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;}
+.clear{clear: both;}
+.center{text-align: center;}
+*{padding: 0; margin: 0; }
+ul{list-style: none}
+a{text-decoration: none}
+.floatleft{float: left}
+
+.hide{display: none}
+
+
+
+
+/*left*/
+.divleft{ width: 180.500px; display: inline-block; height: 800px; margin-right: 10px; padding: 20px;
+position: relative; top: 0}
+.divcenter{ width: 568px; display: inline-block; height: 800px; padding: 15px;position: relative; top: 0; left: 7%}
+.divright{ width: 350px; display: inline-block; height: 800px; padding: 15px; margin-left: 40px;
+	position: relative; top: 0; right: 2%; float: right;}
+
+
+.iconsbar{  width: 80.500px; margin-right: 10px; text-align: center;
+position: absolute; right: 0;}
+.icons{color: #fff; font: normal normal normal 30px/1 FontAwesome; display: block; padding-bottom: 30px;}
+
+.daera{background: rgb(26, 145, 218); width: 50px; height: 50px;
+	border-radius: 50%; position: relative; right: -15px; text-align: center; margin-bottom: 30px; overflow: hidden
+}
+.daera img{width: 100%}
+.iconx{color: #fff; font: normal normal normal 20px/1 FontAwesome; position: absolute; 
+left: 50%; top: 50%; transform: translate(-50%, -50%)}
+.z{color: #fff;position: absolute;top: 25%;left: 25%;}
+/*center*/
+.header{ 
+}
+/*story*/
+.story{height: 200px; width: 118px; overflow: hidden; border-radius: 15px;
+	margin: 10px; position: relative; box-shadow: 0 0px 4px 0px; display: inline-block}
+.story .imgstory{height: 100%; position: relative; left: -30px}
+.iconstory{position: absolute; width: 50px; height: 50px;border-radius:50%; overflow: hidden; top: 10px; left: 10px;;}
+.iconstory img{width: 100%}
+.namestory{color: #fff; position: absolute; bottom: 10px; left: 10px; font-size: 16px; font-weight: 500}
+
+/*writepost*/
+.writepost{border-radius: 20px; margin: 10px 0; height: 140px; background: #1d2833}
+.postat{ padding: 20px; border-bottom: solid 1px rgb(56, 68, 77); height: 50px; width: 90%; margin: auto}
+.textpost{height: 40px; width: 86%; background: rgb(37 50 63);   float: right;    margin: 5px 0;
+	color: rgb(136, 153, 166); border: none; border-radius: 20px; position: relative;}
+
+.iconpostat{width: 32.5%; text-align: center; display: inline-block; padding: 10px 0; position: relative;
+    left: 25px;}
+.iconpostat .iconp{font: normal normal normal 25px/1 FontAwesome;
+    color: red;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+.ppost{font-weight: 600;
+    color: #fff;
+    font-size: 15px;
+    margin: 4px;
+	float: left;
+}
+
+.rooms{display: inline-block; padding: 10px;width: 50px; height: 50px;border-radius: 50%;position: relative;
+    left: 25px;}
+.green{width: 15px; height: 15px; border-radius: 50%; background: #37F400; position: absolute; margin: 35px}
+
+
+
+
+
+
+
+
+
+
+
+.text{color: #fff; font-size: 19px; font-weight: 800;}
+.post{ border-bottom: solid 1px rgb(56, 68, 77); padding: 15px;}
+
+.daera2{background: rgb(26, 145, 218); width: 50px; height: 50px;border-radius: 50%; display: inline-block;
+	position: relative; text-align: center;  overflow: hidden
+}
+.daera2 img{width: 100%}
+.p{color: #fff; font-size: 23px; padding: 15px;}
+.text2{color: #fff; font-size: 19px; font-weight: 700;padding: 7px}
+.icona{color: rgb(136, 153, 166); font-weight: 500; font: normal normal normal 20px/1 FontAwesome; width: 24%; padding: 10px 0;}
+
+/*right*/
+.search{height: 40px; width: 100%; background: rgb(37 50 63);  
+	color: rgb(136, 153, 166); border: none; border-radius: 20px; position: relative;}
+.iconax{position: absolute; left: 25px; top: 15px}
+.right1{border: solid 1px rgb(56, 68, 77); border-radius: 20px 20px 0 0; margin: 20px 0}
+.right2{border: solid 1px rgb(56, 68, 77); border-radius: 0 0 20px 20px; 
+    position: relative;
+    top: -21px;}
+.following{    background: rgb(26, 145, 218);
+    color: #fff; float: right;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: 20px;}
+.trend{color: rgb(136, 153, 166); font-size: 14px; padding: 10px;}
+
+
